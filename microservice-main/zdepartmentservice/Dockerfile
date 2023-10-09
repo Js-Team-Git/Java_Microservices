@@ -4,7 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY target/ZDepartmentService-0.0.1-SNAPSHOT.jar ZDepartmentService-0.0.1-SNAPSHOT.jar
+COPY target/ZDepartmentService-0.0.1-SNAPSHOT.jar .
 
 EXPOSE 8080
 
